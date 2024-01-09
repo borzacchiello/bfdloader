@@ -56,8 +56,6 @@ function fetch_and_build {
     cp "../src/libiberty/libiberty.a" . || exit 1
     cp "../src/libsframe/.libs/libsframe.a" . || exit 1
 
-    cd ..
-    rm -rf ./src
     popd
 }
 
